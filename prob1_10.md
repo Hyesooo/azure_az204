@@ -13,7 +13,6 @@
    > :black_nib: To deploy a YAML file to Kubernetes you need to use the “kubectl” command 
 
 4.  *same with no.3*  
-   </br>
 5. 새로운 데이터가 큐에 들어올때마다 코드의 특정 함수를 인보크 시키는 앱 서비스의 백그라운드 태스크를 트리거 하도록 디자인 된 WebJobs SDK 사용할때, 큐 아이템들을 처리하는 서비스 구성을 하려고한다. 이떄 사용할 서비스는?  
 🔔 **WebJobs**  
    > :black_nib: 특별한 언급이 없다면 WebJobs SDK와 가장 호환이 좋은것은 webJobs, 그러나 Function과 비교했을 때 기능이 안되는 것이 많음.
@@ -23,7 +22,6 @@
    > :black_nib: Max value for Fault Domain is 3 and Update Domain is 20 in a single availablity set.
 
 7.  *same with no.6*  
-   </br>
 8.  CosmosDB SQL API 이용하는데, Iot 디바이스에 정보가 들어오면 이메일알림을 보내야한다. (비용 절감도 체크해야함.) 알맞은 funtion App 설정은?     
    🔔 **consumption plan, sendGrid binding**     
       > :black_nib: 비용절감위해 comsumtion plan 체크하고, 애저 펑션에서 이메일 보내기 위해서는 sendGrid 바인딩을 이용한다. sendGrid API는 azure에서 사용하는 이메일 API임.
