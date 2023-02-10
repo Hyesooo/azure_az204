@@ -20,6 +20,8 @@
 6. ARM 탬플릿으로 애저 리소스를 디플로이 하고자 한다. VM은 하나의 가용성 집합을 갖고 있다. ARM 탬플릿이 장애 또는 유지보수시에 가능한 많은 VM에 접근가능하게 유지하고 싶다. platformFaultDomainCount에 어떤 설정을 할것인가?   
    🔔 **Max Value**  
    > :black_nib: Max value for Fault Domain is 3 and Update Domain is 20 in a single availablity set.
+   >
+   > 장애도메인은 물리적 PC를 의미하고, update도메인은 vm하나를 의미함.
 
 7.  *same with no.6*  
 8.  CosmosDB SQL API 이용하는데, Iot 디바이스에 정보가 들어오면 이메일알림을 보내야한다. (비용 절감도 체크해야함.) 알맞은 funtion App 설정은?     
